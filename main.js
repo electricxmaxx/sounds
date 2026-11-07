@@ -49,7 +49,7 @@ function renderSounds(filter = '') {
                 currentAudios.forEach(a => a.pause());
                 currentAudios = [];
             }
-            const audio = new Audio("https://cdn.jsdelivr.net/gh/genizymath/soundboard@main/"+sound.mp3);
+            const audio = new Audio("https://cdn.gitdelivr.in/gh/genizymath/soundboard/main/" + sound.mp3);
             audio.play();
             currentAudios.push(audio);
             image.classList.add('pressed');
